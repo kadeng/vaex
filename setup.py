@@ -12,8 +12,6 @@ packages = [
     "vaex-server",
     "vaex-astro",
     "vaex-jupyter",
-    "vaex-ml",
-    "vaex-graphql",
     "vaex-contrib",
     "vaex",
 ]
@@ -51,8 +49,6 @@ setup(
             "nbconvert",
             "jupyterlab",
             "plotly",
-            # https://github.com/vaexio/vaex/pull/2356#issuecomment-2320707228
-            "graphene-tornado @ https://github.com/ddelange/graphene-tornado/archive/refs/heads/2.6.1.unpin-werkzeug.zip",
         ]
     },
 )
